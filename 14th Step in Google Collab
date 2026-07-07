@@ -1,0 +1,2 @@
+sweet_data = data[data['flavor_profile']=='sweet']
+final_sweet_data = sweet_data[sweet_data['course']!='dessert']
