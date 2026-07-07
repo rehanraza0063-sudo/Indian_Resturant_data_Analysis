@@ -1,0 +1,1 @@
+pie_data = data.diet.value_counts().reset_index()
