@@ -1,0 +1,4 @@
+pie_data.columns = ['diet','count']
+fig = px.pie(pie_data, values='count', names='diet', title='Proportion of Vegetarian and Non-Vegetarian dishes',
+             color_discrete_sequence=['green', 'red'])
+fig.show()
