@@ -1,0 +1,3 @@
+fig = px.bar(ten_cook_quickly,x='cook_time',y='name',title='dishes based on cooking time',
+color_discrete_sequence=['green'])
+fig.show()
