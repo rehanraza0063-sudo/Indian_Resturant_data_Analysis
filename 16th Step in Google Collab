@@ -1,0 +1,5 @@
+flav_data = data.flavor_profile.value_counts().reset_index()
+flav_data.columns = ['flavor_profile', 'prep_time']
+fig = px.bar(flav_data,x='flavor_profile',y='prep_time',title='variety of item according to the flavour',
+color_discrete_sequence=['green'])
+fig.show()
