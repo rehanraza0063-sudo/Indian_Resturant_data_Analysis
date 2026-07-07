@@ -1,0 +1,5 @@
+y=tencooking_time_longest['cook_time']
+x=tencooking_time_longest['name']
+plt.plot(x,y)
+plt.title('dishes based on cooking time')
+plt.show()
